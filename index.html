@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RE:USE — аренда</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="site container">
+    <header class="header">
+      <div class="logo"></i>RE:USE</div>
+      <div class="nav">
+        <a href="#">О проекте</a>
+        <a href="#">Вакансии</a>
+        <a href="#">Помощь</a>
+        <a href="#">Контакты</a>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <div class="hero">
+      <div>
+        <h1>Нужна вещь <br />на <span>один раз?</span></h1>
+        <p>Дрель, палатка, чемодан, отпариватель — всё рядом с вами. Арендуйте у соседей за пару минут.</p>
+        <div class="btn-group">
+          <a href="#" class="btn btn-primary"><i class="fas fa-search"></i> Найти вещь</a>
+          <a href="#" class="btn btn-outline"><i class="fas fa-hand-holding"></i> Сдать в аренду</a>
+        </div>
+        <div class="hero-badges">
+          <span><i class="fas fa-check-circle"></i> Без переплат</span>
+          <span><i class="fas fa-check-circle"></i> Рядом с домом</span>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-card">
+          <div class="item"><span class="icon"><i class="fa fa-archive"></i></span><div class="info"><h4>Дрель Bosch</h4><p>300 ₽ / день · 2 км</p></div></div>
+          <div class="item"><span class="icon"><i class="fa fa-archive"></i></span><div class="info"><h4>Палатка 4‑х местная</h4><p>700 ₽ / день · 1.5 км</p></div></div>
+          <div class="item"><span class="icon"><i class="fa fa-archive"></i></span><div class="info"><h4>Чемодан 70л</h4><p>200 ₽ / день · 3 км</p></div></div>
+          <div class="item"><span class="icon"><i class="fa fa-archive"></i></span><div class="info"><h4>Отпариватель</h4><p>150 ₽ / день · 0.8 км</p></div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 1. ЗНАКОМАЯ СИТУАЦИЯ? -->
+    <section>
+      <div class="section-head">
+        <h2 class="section-title">Знакомая ситуация?</h2>
+        <div class="scroll-nav">
+          <button class="scroll-btn" id="scrollLeftBtn"><i class="fas fa-arrow-left"></i> Назад</button>
+          <button class="scroll-btn" id="scrollRightBtn">Вперёд <i class="fas fa-arrow-right"></i></button>
+        </div>
+      </div>
+      <div class="situation-scroll-wrapper">
+        <div class="situation-scroll" id="situationScroll">
+          <div class="situation-card-horiz">
+            <div class="card-content">
+              <span class="emoji-big">🔧</span>
+              <h3>Купил дрель на один раз</h3>
+              <p class="desc">Пылится в шкафу уже 5 лет</p>
+              <div class="extra-text-horiz"><i class="fas fa-arrow-right"></i> А мог бы сдать и заработать!</div>
+            </div>
+          </div>
+          <div class="situation-card-horiz">
+            <div class="card-content">
+              <span class="emoji-big">🤷</span>
+              <h3>Не знаю, у кого можно взять</h3>
+              <p class="desc">Нет связи с соседями</p>
+              <div class="extra-text-horiz"><i class="fas fa-arrow-right"></i> RE:USE покажет всех рядом</div>
+            </div>
+          </div>
+          <div class="situation-card-horiz">
+            <div class="card-content">
+              <span class="emoji-big">💸</span>
+              <h3>Переплата</h3>
+              <p class="desc">Покупать новое — дорого</p>
+              <div class="extra-text-horiz"><i class="fas fa-arrow-right"></i> Аренда в 5–10 раз дешевле</div>
+            </div>
+          </div>
+          <div class="situation-card-horiz">
+            <div class="card-content">
+              <span class="emoji-big">📦</span>
+              <h3>Захламление</h3>
+              <p class="desc">Вещи занимают место</p>
+              <div class="extra-text-horiz"><i class="fas fa-arrow-right"></i> Освободи шкаф и заработай</div>
+            </div>
+          </div>
+          <div class="situation-card-horiz">
+            <div class="card-content">
+              <span class="emoji-big">🔄</span>
+              <h3>Вещи лежат без дела</h3>
+              <p class="desc">Пылятся и не приносят пользы</p>
+              <div class="extra-text-horiz"><i class="fas fa-arrow-right"></i> Сдай в аренду — они оживут!</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- 2. ЧТО ТАКОЕ RE:USE? -->
+<section>
+  <h2 class="section-title">Что такое <span class="accent">RE:USE</span>?</h2>
+  <p class="section-sub" style="font-size: 1.2rem;">Приложение, где люди сдают и берут вещи в аренду у соседей</p>
+  <div class="grid-3">
+    <div class="card reveal-card">
+      <div class="card-bg" style="background-image: url('фото/1697620681_klev-club-p-risunki-karta-sankt-peterburg-33.jpg');"></div>
+      <div class="card-content">
+        <h3>Найди на карте</h3>
+        <p>Вещи рядом с вами</p>
+      </div>
+    </div>
+    <div class="card reveal-card">
+      <div class="card-bg" style="background-image: url('фото/Скриншот 17-06-2026 091502.jpg');"></div>
+      <div class="card-content">
+        <h3>Забронируй даты</h3>
+        <p>Выбери удобное время</p>
+      </div>
+    </div>
+    <div class="card reveal-card">
+      <div class="card-bg" style="background-image: url('фото/Скриншот 17-06-2026 091552.jpg');"></div>
+      <div class="card-content">
+        <h3>Встречай или постамат</h3>
+        <p>Без лишних контактов</p>
+      </div>
+    </div>
+    <div class="card reveal-card">
+      <div class="card-bg" style="background-image: url('фото/Скриншот 17-06-2026 091639.jpg');"></div>
+      <div class="card-content">
+        <h3>Оплати аренду + залог</h3>
+        <p>Безопасно</p>
+      </div>
+    </div>
+    <div class="card reveal-card">
+      <div class="card-bg" style="background-image: url('фото/Скриншот 17-06-2026 091742.jpg');"></div>
+      <div class="card-content">
+        <h3>Фото до и после</h3>
+        <p>Чек-лист для защиты</p>
+      </div>
+    </div>
+    <div class="card reveal-card">
+      <div class="card-bg" style="background-image: url('фото/Скриншот 17-06-2026 091821.jpg');"></div>
+      <div class="card-content">
+        <h3>Оцени соседа</h3>
+        <p>Напиши отзыв</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- 3. КОМУ ПОДОЙДЁТ -->
+    <section>
+      <h2 class="section-title">Кому подойдёт</h2>
+      <div class="grid-2">
+        <div class="card who-card"><span class="emoji-big">🙌</span><h3>Кто берёт в аренду</h3><p class="main-line">Экономит деньги · Не хранит лишнее</p><div class="second-line"><i class="fas fa-check-circle" style="color:#4facfe;"></i> Берёт вещь здесь и сейчас</div></div>
+        <div class="card who-card"><span class="emoji-big">💼</span><h3>Кто сдаёт в аренду</h3><p class="main-line">Зарабатывает · Вещи приносят доход</p><div class="second-line"><i class="fas fa-check-circle" style="color:#4facfe;"></i> Знакомится с соседями</div></div>
+      </div>
+    </section>
+
+    <!-- 4. БЕЗОПАСНОСТЬ -->
+    <section>
+      <h2 class="section-title">Мы позаботились о безопасности</h2>
+      <div class="security-grid">
+        <div class="security-item">
+          <i class="fas fa-lock"></i>
+          <h4>Залог</h4>
+          <p>Средства замораживаются</p>
+          <div class="sec-hover-full">🔒 Залог замораживается до возврата вещи — вы в безопасности</div>
+        </div>
+        <div class="security-item">
+          <i class="fas fa-camera"></i>
+          <h4>Чек-лист фото</h4>
+          <p>До и после</p>
+          <div class="sec-hover-full">📸 Фото до и после — чёткое доказательство состояния вещи</div>
+        </div>
+        <div class="security-item">
+          <i class="fas fa-star"></i>
+          <h4>Рейтинг</h4>
+          <p>Оценки и отзывы</p>
+          <div class="sec-hover-full">⭐ Рейтинг и отзывы видны всем — только честные соседи</div>
+        </div>
+        <div class="security-item">
+          <i class="fas fa-file-signature"></i>
+          <h4>Онлайн-договор</h4>
+          <p>Юридическая защита</p>
+          <div class="sec-hover-full">📄 Онлайн-договор с юридической силой — защита для обеих сторон</div>
+        </div>
+        <div class="security-item">
+          <i class="fas fa-box"></i>
+          <h4>Постаматы 24/7</h4>
+          <p>Передача без встречи</p>
+          <div class="sec-hover-full">📦 Постаматы работают круглосуточно — передача без личной встречи</div>
+        </div>
+        <div class="security-item">
+          <i class="fas fa-shield-alt"></i>
+          <h4>Честные соседи</h4>
+          <p>Рейтинг и отзывы</p>
+          <div class="sec-hover-full">🛡️ Прозрачный рейтинг и история — вы знаете, кому доверяете</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. КАТЕГОРИИ -->
+    <section>
+      <h2 class="section-title">Что можно найти</h2>
+      <div class="category-grid">
+        <span class="category-chip"><i class="fas fa-tools"></i> Инструменты<span class="cat-hover">дрели, шуруповёрты</span></span>
+        <span class="category-chip"><i class="fas fa-laptop"></i> Электроника<span class="cat-hover">ноутбуки, проекторы</span></span>
+        <span class="category-chip"><i class="fas fa-bicycle"></i> Спорт и отдых<span class="cat-hover">велосипеды, палатки</span></span>
+        <span class="category-chip"><i class="fas fa-tshirt"></i> Одежда<span class="cat-hover">костюмы, платья</span></span>
+        <span class="category-chip"><i class="fas fa-glass-cheers"></i> Праздник<span class="cat-hover">декор, посуда</span></span>
+        <span class="category-chip"><i class="fas fa-baby"></i> Детские товары<span class="cat-hover">коляски, игрушки</span></span>
+        <span class="category-chip"><i class="fas fa-leaf"></i> Дом и сад<span class="cat-hover">газонокосилки</span></span>
+        <span class="category-chip"><i class="fas fa-gas-pump"></i> Автозаправка<span class="cat-hover">аккумуляторы, коврики</span></span>
+      </div>
+    </section>
+
+<!-- 6. КАК ЭТО РАБОТАЕТ -->
+<section>
+  <h2 class="section-title">Как это работает</h2>
+  <div class="grid-3">
+    <div class="card step-card">
+      <span class="step-num-bg">01</span>
+      <div class="step-content">
+        <h3>Найди на карте</h3>
+        <p class="step-desc">Выбери вещь рядом с домом</p>
+      </div>
+    </div>
+    <div class="card step-card">
+      <span class="step-num-bg">02</span>
+      <div class="step-content">
+        <h3>Забронируй</h3>
+        <p class="step-desc">Укажи даты и время</p>
+      </div>
+    </div>
+    <div class="card step-card">
+      <span class="step-num-bg">03</span>
+      <div class="step-content">
+        <h3>Получи</h3>
+        <p class="step-desc">Встречайся или забери из постамата</p>
+      </div>
+    </div>
+    <div class="card step-card">
+      <span class="step-num-bg">04</span>
+      <div class="step-content">
+        <h3>Оплати</h3>
+        <p class="step-desc">Аренду и залог</p>
+      </div>
+    </div>
+    <div class="card step-card">
+      <span class="step-num-bg">05</span>
+      <div class="step-content">
+        <h3>Сфоткай</h3>
+        <p class="step-desc">Чек-лист до и после</p>
+      </div>
+    </div>
+    <div class="card step-card">
+      <span class="step-num-bg">06</span>
+      <div class="step-content">
+        <h3>Оцени</h3>
+        <p class="step-desc">Напиши отзыв соседу</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <script>
+    (function() {
+      const fadeElements = document.querySelectorAll('.card, .security-item, .hero-card, .category-chip, .situation-card-horiz');
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+          }
+        });
+      }, { threshold: 0.15 });
+      fadeElements.forEach(el => {
+        el.classList.add('fade-up');
+        observer.observe(el);
+      });
+      document.querySelector('.hero-card')?.classList.add('visible');
+
+      const scrollContainer = document.getElementById('situationScroll');
+      const leftBtn = document.getElementById('scrollLeftBtn');
+      const rightBtn = document.getElementById('scrollRightBtn');
+      if (scrollContainer && leftBtn && rightBtn) {
+        leftBtn.addEventListener('click', () => scrollContainer.scrollBy({ left: -300, behavior: 'smooth' }));
+        rightBtn.addEventListener('click', () => scrollContainer.scrollBy({ left: 300, behavior: 'smooth' }));
+      }
+
+      document.querySelectorAll('.btn').forEach(btn => {
+        btn.addEventListener('mouseenter', function() { this.style.filter = 'brightness(1.05)'; });
+        btn.addEventListener('mouseleave', function() { this.style.filter = 'brightness(1)'; });
+      });
+
+      console.log('RE:USE — голубой акцент, светлый фон');
+    })();
+  </script>
+</body>
+</html>
